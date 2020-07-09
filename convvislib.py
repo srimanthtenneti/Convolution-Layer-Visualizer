@@ -1,6 +1,6 @@
 class Conv_layervis(nn.Module):
     def __init__(self,layer,img):
-        super(layervis , self).__init__()
+        super(Conv_layervis , self).__init__()
          
         self.layer = layer
         self.img = img
